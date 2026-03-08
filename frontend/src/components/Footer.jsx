@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer className="px-6 md:px-16 py-10 mt-16 flex flex-col md:flex-row gap-8 text-sm text-gray-700" style={{ backgroundColor: '#e8e0d0' }}>

@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import volunteerImage from "/public/volunteer.webp"
-import communityImage from "/public/support.webp"
-import heroImage from "/public/header_cropped.jpg"
 
 export default function HomePage() {
   return (
@@ -14,7 +11,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section
         className="relative min-h-screen flex items-end pb-16 px-6 md:px-16"
-        style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }}
+        style={{ backgroundImage: `url(/header_cropped.jpg)`, backgroundSize: 'cover', backgroundPosition: 'bottom' }}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 max-w-3xl">
@@ -51,7 +48,7 @@ export default function HomePage() {
         {/* Project 1 - Volunteer */}
         <div className="flex flex-col md:flex-row gap-10 mb-16 items-center">
           <div className="md:w-1/2">
-            <img src={volunteerImage} alt="Volunteer" className="w-full h-72 object-cover rounded" />
+            <img src="/volunteer.webp" alt="Communities" className="w-full h-72 object-cover rounded" />
           </div>
           <div className="md:w-1/2">
             <h3 className="text-2xl font-bold mb-3 text-gray-800">Volunteer With Us</h3>
@@ -76,7 +73,7 @@ export default function HomePage() {
             </a>
           </div>
           <div className="md:w-1/2">
-            <img src={communityImage} alt="Communities" className="w-full h-72 object-cover rounded" />
+            <img src="/support.webp" alt="Communities" className="w-full h-72 object-cover rounded" />
           </div>
           
         </div>
