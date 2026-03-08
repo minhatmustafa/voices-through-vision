@@ -7,12 +7,12 @@ export default function Footer() {
         <p>Northampton, MA USA 01063</p>
       </div>
       <div className="flex flex-col gap-2">
-        <a href="/our-vision" className="hover:underline">Our Vision</a>
-        <a href="/our-team" className="hover:underline">Our Team</a>
+        <Link to="/our-vision" className="hover:underline">Our Vision</Link>
+        <Link to="/our-team" className="hover:underline">Our Team</Link>
       </div>
       <div className="flex flex-col gap-2">
-        <a href="/volunteer-with-us" className="hover:underline">Volunteer</a>
-        <a href="/donate" className="hover:underline">Donate</a>
+        <Link to="/volunteer-with-us" className="hover:underline">Volunteer</Link>
+        <Link to="/donate" className="hover:underline">Donate</Link>
       </div>
     </footer>
   )
