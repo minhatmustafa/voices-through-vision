@@ -35,7 +35,7 @@ export default function Navbar() {
           <Link to="/our-vision" onClick={() => setMenuOpen(false)} className="hover:underline">Our Vision</Link>
           <Link to="/our-team" onClick={() => setMenuOpen(false)} className="hover:underline">Our Team</Link>
           <Link to="/volunteer-with-us" onClick={() => setMenuOpen(false)} className="hover:underline">Volunteer</Link>
-          <a href="/donate" className="px-4 py-1.5 text-white text-center transition w-full" style={{ backgroundColor: '#7d9b76' }}>Donate</a>
+          <Link to="/donate" className="px-4 py-1.5 text-white text-center transition w-full" style={{ backgroundColor: '#7d9b76' }}>Donate</Link>
         </div>
       )}
     </nav>

@@ -55,9 +55,9 @@ export default function HomePage() {
             <p className="text-gray-600 text-sm leading-relaxed mb-5">
               Many educational materials in local languages are often out of date. We work with school leaders and publishers to ensure that students have access to current textbooks that are age appropriate and written in their primary language.
             </p>
-            <a href="/volunteer-with-us" className="inline-block px-5 py-2 text-sm text-white transition" style={{ backgroundColor: '#7d9b76' }}>
+            <Link to="/volunteer-with-us" className="inline-block px-5 py-2 text-sm text-white transition" style={{ backgroundColor: '#7d9b76' }}>
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -68,9 +68,9 @@ export default function HomePage() {
             <p className="text-gray-600 text-sm leading-relaxed mb-5">
               Education happens within the context of a larger community. Our approach extends beyond the school to help ensure students have the necessary support to do their best learning.
             </p>
-            <a href="/donate" className="inline-block px-5 py-2 text-sm text-white transition" style={{ backgroundColor: '#7d9b76' }}>
+            <Link to="/donate" className="inline-block px-5 py-2 text-sm text-white transition" style={{ backgroundColor: '#7d9b76' }}>
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="md:w-1/2">
             <img src="/support.webp" alt="Communities" className="w-full h-72 object-cover rounded" />
