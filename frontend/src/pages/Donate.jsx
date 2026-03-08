@@ -7,9 +7,17 @@ export default function Donate() {
 
       <Navbar />
 
-      {/* Page Header */}
-      <div className="pt-24 pb-6 px-6 md:px-16 flex flex-col md:flex-row justify-between items-center gap-4">
-        <h1 className="text-4xl md:text-5xl font-bold">Support for Communities</h1>
+      {/* Hero Section */}
+      <section className="pt-24 pb-10 px-6 md:px-16 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="md:w-2/3">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Make a Difference</h1>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Your generosity can change a child's life. Every donation helps provide education, learning materials, and essential care for orphans in Hargeisa, giving them hope, opportunity, and a brighter future.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Together, we can open doors to possibility and show these children that they are never forgotten.
+          </p>
+        </div>
         <a
           href="#"
           className="inline-block px-12 py-4 text-white text-base font-medium transition hover:opacity-90 flex-shrink-0"
@@ -17,10 +25,11 @@ export default function Donate() {
         >
           Donate Now
         </a>
-      </div>
+      </section>
 
-      {/* Intro */}
+      {/* Support for Communities */}
       <section className="px-6 md:px-16 py-10 max-w-3xl text-gray-700 leading-relaxed space-y-5">
+        <h2 className="text-2xl font-bold">Support for Communities</h2>
         <p>
           Our work extends beyond classrooms — it's about strengthening the entire community that nurtures each child. We believe that lasting change happens when families, educators, and neighbors come together to create an environment where every child can grow, learn, and dream freely.
         </p>
@@ -31,15 +40,6 @@ export default function Donate() {
           From providing access to learning materials and technology, we're committed to creating opportunities that uplift not just individuals, but the collective spirit of the children in Hargeisa orphanage center.
         </p>
       </section>
-
-      {/* Image */}
-      <div className="px-6 md:px-16 py-6">
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/624b503b4e8eed088f164602/1649102911563-GVP8X4YMYTJGKHV7N1VB/justice-rising-ECHO-AND-EARL-10.jpg"
-          alt="Community support"
-          className="w-full h-72 md:h-96 object-cover rounded"
-        />
-      </div>
 
       {/* Our Approach */}
       <section className="px-6 md:px-16 py-10" style={{ backgroundColor: '#e8e4d9' }}>

@@ -25,13 +25,6 @@ export default function Volunteer() {
             Join us to make a lasting impact — not just through lessons, but through love, connection, and community. Together, we can nurture confidence, open doors to education, and show every child that they are seen, valued, and capable of greatness.
           </p>
         </div>
-        <div className="md:w-1/2">
-          <img
-            src="https://images.squarespace-cdn.com/content/v1/624b503b4e8eed088f164602/1649102929186-KRNU99840L98J3XWYFSD/justice-rising-ECHO-AND-EARL-21.jpg"
-            alt="Volunteer with us"
-            className="w-full h-72 md:h-96 object-cover rounded shadow-md"
-          />
-        </div>
       </section>
 
       {/* How You Can Help */}
@@ -58,7 +51,7 @@ export default function Volunteer() {
       </section>
 
       {/* Join Us CTA */}
-      <section className="px-6 md:px-16 py-16 text-center">
+      {/* <section className="px-6 md:px-16 py-16 text-center">
         <h2 className="text-3xl font-bold mb-3">Join Us</h2>
         <p className="text-gray-600 mb-8">Be part of something bigger.</p>
         <a
@@ -68,7 +61,7 @@ export default function Volunteer() {
         >
           Sign Up to Volunteer
         </a>
-      </section>
+      </section> */}
 
       <Footer />
 

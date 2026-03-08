@@ -42,10 +42,10 @@ export default function OurTeam() {
             Our story began with a simple but powerful belief — that every child deserves the chance to dream beyond their circumstances. As two college students who had both witnessed the talent and determination of Somali youth, we wanted to do something meaningful to bridge opportunity and access.
           </p>
           <p>
-            During our time teaching children in Hargeisa, we saw firsthand how eager students were to learn — even with limited resources. Their curiosity and resilience inspired us to create something that could go beyond the classroom: a way to connect Somali children at home with the Somali community abroad.
+            During our time teaching children in Hargeisa, we saw firsthand how eager students were to learn, even with limited resources. Their curiosity and resilience inspired us to create something that could go beyond the classroom: a way to connect Somali children at home with the Somali community abroad.
           </p>
           <p>
-            What started as small lessons in English and mathematics has grown into a broader mission — to provide online education, mentorship, and life skills that build confidence, widen horizons, and nurture a sense of belonging.
+            What started as small lessons in English and mathematics has grown into a broader mission: to provide online education, mentorship, and life skills that build confidence, widen horizons, and nurture a sense of belonging.
           </p>
           <p>
             Through this project, we are working to open doors for the next generation of Somali youth, empowering them to see their own potential, engage with the world, and uplift their communities.
@@ -55,7 +55,7 @@ export default function OurTeam() {
           </p>
         </div>
       </section>
-      
+
       <Footer />
 
     </div>

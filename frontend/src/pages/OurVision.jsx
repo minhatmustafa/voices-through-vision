@@ -27,9 +27,6 @@ export default function OurVision() {
             By widening their horizons and nurturing their confidence, we hope to inspire a generation of Somali youth who can engage with the world, uplift their communities, and carry forward a vision of unity, knowledge, and possibility.
           </p>
         </div>
-        <div className="md:w-1/2">
-          <img src={visionImage} alt="Children in Hargeisa" className="w-full h-auto rounded shadow-md object-cover" />
-        </div>
       </section>
 
       <Footer />
