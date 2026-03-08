@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section
         className="relative min-h-screen flex items-end pb-16 px-6 md:px-16"
-        style={{ backgroundImage: `url(/header_cropped.jpg)`, backgroundSize: 'cover', backgroundPosition: 'left center' }}
+        style={{ backgroundImage: `url(/header_cropped.jpg)`, backgroundSize: 'cover', backgroundPosition: 'left top' }}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 max-w-3xl">
