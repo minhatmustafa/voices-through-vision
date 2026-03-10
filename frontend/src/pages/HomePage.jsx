@@ -84,8 +84,7 @@ export default function HomePage() {
         <div className="md:w-1/2">
           <h2 className="text-3xl font-bold mb-4">Contact</h2>
           <p className="text-gray-600 text-sm">Feel free to contact us with any questions!</p>
-          <p className="mt-4 text-sm"><strong>Email</strong><br />email@example.com</p>
-          <p className="mt-2 text-sm"><strong>Phone</strong><br />(555) 555-5555</p>
+          <p className="mt-4 text-sm"><strong>Email</strong><br />voicesthroughvision@gmail.com</p>
         </div>
 
       </section>

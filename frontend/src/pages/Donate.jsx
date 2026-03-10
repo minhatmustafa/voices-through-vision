@@ -19,7 +19,7 @@ export default function Donate() {
             Together, we can open doors to possibility and show these children that they are never forgotten.
           </p>
         </div>
-        <Link to="#"
+        <Link to="https://www.gofundme.com/f/support-online-learning-for-hargeisa-orphans"
           className="inline-block px-12 py-4 text-white text-base font-medium transition hover:opacity-90 flex-shrink-0"
           style={{ backgroundColor: '#7d9b76' }}
         >
@@ -68,7 +68,7 @@ export default function Donate() {
         <p className="mb-8">
           You can contribute by sponsoring a local initiative, donating educational materials, or helping us connect with organizations that share our mission.
         </p>
-        <Link to="#"
+        <Link to="https://www.gofundme.com/f/support-online-learning-for-hargeisa-orphans"
           className="inline-block px-12 py-4 text-white text-base font-medium transition hover:opacity-90"
           style={{ backgroundColor: '#7d9b76' }}
         >
