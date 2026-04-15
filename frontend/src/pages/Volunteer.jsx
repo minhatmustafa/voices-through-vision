@@ -25,6 +25,14 @@ export default function Volunteer() {
             Join us to make a lasting impact — not just through lessons, but through love, connection, and community. Together, we can nurture confidence, open doors to education, and show every child that they are seen, valued, and capable of greatness.
           </p>
         </div>
+
+        <div className="md:w-1/2">
+          <img
+            src="/pics/volunteer_pic.jpeg" 
+            alt="Our Vision"
+            className="w-full h-auto rounded-2xl"
+          />
+        </div>
       </section>
 
       {/* How You Can Help */}

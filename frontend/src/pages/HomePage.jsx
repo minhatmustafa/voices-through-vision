@@ -11,7 +11,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section
         className="relative min-h-screen flex items-end pb-16 px-6 md:px-16"
-        style={{ backgroundImage: `url(/header_cropped.jpg)`, backgroundSize: 'cover', backgroundPosition: 'left top' }}
+        style={{ backgroundImage: `url(/pics/homepage_pic.jpeg)`, backgroundSize: 'cover'}}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 max-w-3xl">
@@ -45,10 +45,10 @@ export default function HomePage() {
       {/* Projects Section */}
       <section className="px-6 md:px-16 py-16" style={{ backgroundColor: '#e8e4d9' }}>
 
-        {/* Project 1 - Volunteer */}
+        {/* Volunteer */}
         <div className="flex flex-col md:flex-row gap-10 mb-16 items-center">
           <div className="md:w-1/2">
-            <img src="/volunteer.webp" alt="Communities" className="w-full h-72 object-cover rounded" />
+            <img src="/pics/home_volunteer_pic.jpeg" alt="Communities" className="w-full h-72 object-cover rounded-2xl" />
           </div>
           <div className="md:w-1/2">
             <h3 className="text-2xl font-bold mb-3 text-gray-800">Volunteer With Us</h3>
@@ -73,7 +73,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="md:w-1/2">
-            <img src="/support.webp" alt="Communities" className="w-full h-72 object-cover rounded" />
+            <img src="/pics/home_support_pic.jpeg" alt="Communities" className="w-full h-72 object-cover rounded-2xl" />
           </div>
           
         </div>

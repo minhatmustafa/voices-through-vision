@@ -1,8 +1,6 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const visionImage = "https://images.squarespace-cdn.com/content/v1/69039ec8c66fab554f2b8f4e/121d5e35-b03c-48fc-a4ec-d1b99bb906b2/or.jpeg"
-
 export default function OurVision() {
   return (
     <div className="font-sans" style={{ backgroundColor: '#f5f0e8' }}>
@@ -26,6 +24,15 @@ export default function OurVision() {
           <p>
             By widening their horizons and nurturing their confidence, we hope to inspire a generation of Somali youth who can engage with the world, uplift their communities, and carry forward a vision of unity, knowledge, and possibility.
           </p>
+        </div>
+
+        {/* our vision picture */}
+        <div className="md:w-1/2">
+          <img
+            src="/pics/our_vision_pic.jpeg" 
+            alt="Our Vision"
+            className="w-full h-auto rounded-2xl "
+          />
         </div>
       </section>
 
